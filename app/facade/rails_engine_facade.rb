@@ -4,7 +4,6 @@ class RailsEngineFacade
   end
 
   def merchants
-    require 'pry'; binding.pry
     @service.merchants[:data].map do |merchant|
       Merchant.new(merchant)
     end
