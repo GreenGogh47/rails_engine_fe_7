@@ -231,6 +231,25 @@
           null
         ]
       },
+      "/Users/christophercrane/Desktop/mods/3mod/3week/rails_engine_fe_7/spec/features/merchant/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/christophercrane/Desktop/mods/3mod/3week/rails_engine_fe_7/spec/features/merchant/show_spec.rb": {
         "lines": [
           1,
@@ -252,28 +271,28 @@
           null,
           1,
           1,
-          1,
+          0,
           null,
           null,
           1,
-          1,
+          0,
           null,
-          1,
+          0,
           null,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           null,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           null,
-          1,
-          1,
+          0,
+          0,
           null,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           null,
           null
         ]
@@ -282,21 +301,21 @@
         "lines": [
           1,
           1,
-          1,
+          0,
           null,
           null,
           1,
-          1,
-          1,
+          0,
+          0,
           null,
           null,
           1,
-          1,
+          0,
           null,
           null
         ]
       }
     },
-    "timestamp": 1680731692
+    "timestamp": 1680732344
   }
 }
