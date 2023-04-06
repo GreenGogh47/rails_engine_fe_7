@@ -35,15 +35,13 @@ RSpec.describe RailsEngineService do
 
         @items = @api_call_result[:data].first
 
-        expect(@items).to have_key(:id)
+        expect(@items.keys).to eq([:id, :type, :attributes])
         expect(@items[:id]).to be_a(String)
         expect(@items[:id]).to eq("4")
 
-        expect(@items).to have_key(:type)
         expect(@items[:type]).to be_a(String)
         expect(@items[:type]).to eq("item")
 
-        expect(@items).to have_key(:attributes)
         expect(@items[:attributes]).to be_a(Hash)
 
         expect(@items[:attributes]).to have_key(:name)

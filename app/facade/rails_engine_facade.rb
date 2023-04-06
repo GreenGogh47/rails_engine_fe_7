@@ -9,6 +9,12 @@ class RailsEngineFacade
     end
   end
 
+  def items(merchant_id)
+    @service.items(merchant_id)[:data].map do |item|
+      Item.new(item)
+    end
+  end
+
   private
 
   def service
