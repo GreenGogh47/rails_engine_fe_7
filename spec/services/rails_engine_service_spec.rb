@@ -29,7 +29,7 @@ RSpec.describe RailsEngineService do
 
     describe ".items" do
       it "returns all expected attributes and data types" do
-        @api_call_result = RailsEngineService.new.items
+        @api_call_result = RailsEngineService.new.items("1")
 
         expect(@api_call_result).to be_a(Hash)
 
