@@ -12,8 +12,13 @@ RSpec.describe "Merchant Index Page" do
         expect(page).to have_content("Willms and Sons")
       end
 
-      xit "their name links to their show page" do
+      it "Their name links to their show page" do
+        visit "/merchants"
 
+        click_link "Schroeder-Jerde"
+
+        expect(current_path).to eq("/merchants/1")
+        save_and_open_page
       end
     end
   end

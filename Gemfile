@@ -56,7 +56,9 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'pry'
+  gem "launchy"
   gem "simplecov", require: false, group: :test
+  gem "net-http"
 end
 
 group :development do

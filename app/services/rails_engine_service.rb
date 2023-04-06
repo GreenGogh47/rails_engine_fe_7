@@ -2,6 +2,8 @@ class RailsEngineService
   def merchants
     get_url("merchants")
   end
+
+  private
   
   def get_url(url)
     response = connection.get(url)
