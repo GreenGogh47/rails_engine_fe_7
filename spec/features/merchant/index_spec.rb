@@ -18,6 +18,7 @@ RSpec.describe "Merchant Index Page" do
         click_link "Schroeder-Jerde"
 
         expect(current_path).to eq("/merchants/1")
+        save_and_open_page
       end
     end
   end
