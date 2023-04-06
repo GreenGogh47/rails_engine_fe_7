@@ -1,0 +1,7 @@
+<center><h2><%= @merchant.name %></h2></center>
+
+<ol>
+  <% @items.map do |item| %>
+    <li><%= item.name %></li>
+  <% end %>
+</ol>
