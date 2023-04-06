@@ -229,50 +229,6 @@
           null
         ]
       },
-      "/Users/christophercrane/Desktop/mods/3mod/3week/rails_engine_fe_7/app/controllers/merchants_controller.rb": {
-        "lines": [
-          1,
-          1,
-          0,
-          null,
-          null,
-          1,
-          2,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/christophercrane/Desktop/mods/3mod/3week/rails_engine_fe_7/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/christophercrane/Desktop/mods/3mod/3week/rails_engine_fe_7/app/facade/rails_engine_facade.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          100,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
       "/Users/christophercrane/Desktop/mods/3mod/3week/rails_engine_fe_7/app/services/rails_engine_service.rb": {
         "lines": [
           1,
@@ -292,21 +248,8 @@
           null,
           null
         ]
-      },
-      "/Users/christophercrane/Desktop/mods/3mod/3week/rails_engine_fe_7/app/poros/merchant.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          100,
-          100,
-          100,
-          null,
-          null
-        ]
       }
     },
-    "timestamp": 1680797761
+    "timestamp": 1680798305
   }
 }

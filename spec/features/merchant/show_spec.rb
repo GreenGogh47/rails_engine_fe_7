@@ -12,7 +12,8 @@ RSpec.describe "Merchant Show Page" do
       end
 
       xit "shows a list of items that merchant sells" do
-
+        expect(page).to have_content("Item Nemo Facere")
+        expect(page).to have_content("Item Expedita Aliquam")
       end
     end
   end
