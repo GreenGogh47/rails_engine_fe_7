@@ -2,7 +2,7 @@ require "rails_helper"
 
 RSpec.describe Item do
   before(:each) do
-    item = {
+    first_item = {
       "id": "4",
       "type": "item",
       "attributes": {
@@ -13,20 +13,18 @@ RSpec.describe Item do
       }
     }
 
-    @item1 = Item.new(item)
+    @item = Item.new(first_item)
   end
 
   it "exists" do
-    expect(@item1).to be_a(Item)
-    expect(@item1.id).to eq("4")
-    expect(@item1.type).to eq("item")
+    expect(@item).to be_a(Item)
+    expect(@item.id).to eq("4")
+    expect(@item.type).to eq("item")
 
-    @item1.attributes.each do |attribute|
-      expect(attribute.name).to eq("Schroeder-Jerde")
-      expect(attribute.description).to eq("Sunt eum id eius magni consequuntur delectus veritatis. Quisquam laborum illo ut ab. Ducimus in est id voluptas autem.")
-      expect(attribute.unit_price).to eq(42.91)
-      expect(attribute.merchant_id).to eq(1)
-    end
+    expect(@item.name).to eq("Item Nemo Facere")
+    expect(@item.description).to eq("Sunt eum id eius magni consequuntur delectus veritatis. Quisquam laborum illo ut ab. Ducimus in est id voluptas autem.")
+    expect(@item.unit_price).to eq(42.91)
+    expect(@item.merchant_id).to eq(1)
 
   end
 end
